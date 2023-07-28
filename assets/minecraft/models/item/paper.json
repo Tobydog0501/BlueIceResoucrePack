@@ -1,0 +1,12 @@
+{
+ "parent": "item/handheld",
+ "textures": {
+ "layer0": "item/paper"
+ },
+ 
+ "overrides": [
+ {"predicate": {"custom_model_data":2}, "model": "item/EvilReel"},
+{"predicate": {"custom_model_data":3}, "model": "item/LandDeed"},
+{"predicate": {"custom_model_data":4}, "model": "item/NightmareSeriesWeaponExchangeRoll"} 
+]
+}

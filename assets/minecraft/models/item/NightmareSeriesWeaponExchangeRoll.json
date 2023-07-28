@@ -1,0 +1,81 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/NightmareSeriesWeaponExchangeRoll",
+		"particle": "block/NightmareSeriesWeaponExchangeRoll"
+	},
+	"elements": [
+		{
+			"from": [6.75, -0.25, 6.5],
+			"to": [9.25, 2.25, 7],
+			"faces": {
+				"north": {"uv": [0, 8, 2.5, 10.5], "texture": "#0"},
+				"east": {"uv": [10, 3, 10.5, 5.5], "texture": "#0"},
+				"south": {"uv": [8, 0, 10.5, 2.5], "texture": "#0"},
+				"west": {"uv": [5, 10, 5.5, 12.5], "texture": "#0"},
+				"up": {"uv": [8.5, 10.5, 6, 10], "texture": "#0"},
+				"down": {"uv": [12.5, 6, 10, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 2, 9],
+			"faces": {
+				"north": {"uv": [3, 8, 5, 10], "texture": "#0"},
+				"east": {"uv": [8, 3, 10, 5], "texture": "#0"},
+				"south": {"uv": [5, 8, 7, 10], "texture": "#0"},
+				"west": {"uv": [8, 5, 10, 7], "texture": "#0"},
+				"up": {"uv": [9, 10, 7, 8], "texture": "#0"},
+				"down": {"uv": [11, 7, 9, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.25, -3, 7.25],
+			"to": [8.75, 5, 8.75],
+			"faces": {
+				"north": {"uv": [0, 0, 1.5, 8], "texture": "#0"},
+				"east": {"uv": [2, 0, 3.5, 8], "texture": "#0"},
+				"south": {"uv": [4, 0, 5.5, 8], "texture": "#0"},
+				"west": {"uv": [6, 0, 7.5, 8], "texture": "#0"},
+				"up": {"uv": [10.5, 10.5, 9, 9], "texture": "#0"},
+				"down": {"uv": [4.5, 10, 3, 11.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 10, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 10, 0]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 14, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [0, 14, 0],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
